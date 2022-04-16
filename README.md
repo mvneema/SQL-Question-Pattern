@@ -3,15 +3,24 @@ This repo is for different SQL question patterns asked in interviews.
 
 #### 1. Write a query to list the top three cities that had the most number of completed orders. 
 Assume you are given the tables below containing information on trade and users. 
-Trades                                                           Users
-| column_name   | type                            |              |column_name    | type            |
-| ------------- |:-------------------------------:|              | --------------|:---------------:|
-| order_id      | right-aligned                   |              |user_id        |integer          |
-| user_id       | centered                        |              |city           |string           |
-| price         | are neat                        |              |email          | string          |
-|quantity       | integer                         |              |signup_date    | datetime        |
+Trades                                                           
+| column_name   | type                            |              
+| ------------- |:-------------------------------:|              
+| order_id      | right-aligned                   |              
+| user_id       | centered                        |              
+| price         | are neat                        |              
+|quantity       | integer                         |              
 |status         |string ("complete", "cancelled") |
 |timestamp      | datetime                        |
+
+Users
+|column_name    | type            |
+| --------------|:---------------:|
+|user_id        |integer          |
+|city           |string           |
+|email          | string          |
+|signup_date    | datetime        |
+
 
 SOLUTION: 
 
